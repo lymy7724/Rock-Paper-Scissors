@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <div class="emojis">
+        <ul>
+            <li>Rock 🪨</li>
+            <li>Paper 📄</li>
+            <li>Scissors ✂️</li>
+        </ul>
+    </div>
+
+    <div class="moves">
+        <label style="color: white;">Enter your move:</label>
+        <input type="text" id="user" />
+        <button onclick="userInput()">Enter</button>
+    </div>
+
+    <div class="title">
+        <h3 id="player">Player's Choice:</h3>
+        <h3 id="ptext"></h3>
+        <h3 id="computer">Computer's Choice:</h3>
+        <h3 id="ctext"></h3>
+    </div>
+
+
+    <h3 id="res"></h3>
+
+    <div class="points">
+        <p>Player:</p>
+        <p id="ppoints">0</p>
+        <p>Computer:</p>
+        <p id="cpoints">0</p>
+        <p>Ties:</p>
+        <p id="ties">0</p>
+    </div>
+
+    <div class="resbutton">
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+    height: 80vh;
+    background-color: #212121;
+}
+
+.emojis {
+    padding: 20px;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    gap: 30px;
+}
+
+
+.moves {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#ptext,
+#ctext {
+    color: rgb(25, 129, 194);
+}
+
+#res {
+    font-size: 50px;
+    color: rgb(204, 45, 45);
+    display: flex;
+    justify-content: center;
+}
+
+.points {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+#cpoints,
+#ppoints,
+#ties {
+    color: rgb(25, 129, 194);
+}
+
+#reset {
+    width: 100px;
+    height: 30px;
+
+
+}
+
+.resbutton {
+    display: flex;
+    justify-content: center;
+}
